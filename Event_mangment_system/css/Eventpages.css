@@ -1,0 +1,17 @@
+/* Event first page */
+body {
+    background-color: #f8f9fa;
+}
+.event-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.dignitary img, .creator img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}

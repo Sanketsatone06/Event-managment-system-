@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* button{
+    background: linear-gradient(rgba(9, 48, 109, 0.7), rgba(49, 32, 93, 0.7))
+} */
+
+
+
+.playfair {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.parallax,
+navbar {
+    height: 729px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.carousel-item {
+    height: 100vh;
+    width: 100%;
+}
+
+.third {
+    background: linear-gradient(rgba(0.8, 0.7, 0, 0.9), rgba(0, 0, 0, 0.9));
+    object-fit: cover;
+}
+
+.benefits {
+    color: #FCC6FF;
+}
+
+.Moments {
+    background-color: #F4F8D3; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    color: black;
+}
+
+.Moments:hover{
+    background-color: #C5BAFF; 
+    transform: scale(1.05);
+}
+
+
+/* weding */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.video-container {
+    width: 80%;  /* Makes it responsive automatically */
+    max-width: 800px; /* Limits max size */
+    margin: auto; /* Centers the video */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Ensures proper border-radius effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 100%; /* Makes it responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 20px; /* Ensures rounded corners */
+}
+
+
+/* signuppage */
+
+.signupForm {
+    background: linear-gradient(rgba(0, 0, 0.4, 0.7), rgba(0, 0, 0, 0.5)), url('../Images/Background/login.jpg');
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+    background-position: center;
+}
+
+
+.event {
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 900px;
+    /* color: white; */
+    background-color:lightsteelblue;
+}
+
+.dark {
+    /* background-color: lightgoldenrodyellow; */
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* login page  */
+
+.login{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.login-container {
+    background: linear-gradient(rgba(0, 0, 0.4, 0.7), rgba(0, 0, 0, 0.5)), url('../Images/Background/login.jpg');
+    opacity: 0.9;
+    background-size: cover;
+    background-position:initial;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.login-form {
+    padding: 40px;
+    color: black;
+}
+
+.login-form h3 {
+    text-align: center;
+}
+
+.control {
+    border-radius: 8px;
+}
+
+.primary {
+    border-radius: 8px;
+}
+
+*{
+    /* border: 2px solid red; */
+}
+
+/* ABOUT PAGE */
+
+ /* Hero Section Styling */
+ .hero-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Contact Section */
+.contact-form {
+    padding: 40px;
+    border-radius: 10px;
+    width: auto;
+}
+
+/* Event page  */   
+        .event-category {
+            margin-bottom: 20px;
+        }
+
+
+        .category-title {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Register page  */
+        body {
+            /* background:linear-gradient(to right, #6a11cb, #2575fc) ; */
+            background-color: aliceblue;
+            color: white;
+        }
+        .regi{
+            background:linear-gradient(to right, #6a11cb, #2575fc) ;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-weight: bold;
+            text-shadow:
+             2px 2px 5px rgba(0, 0, 0, 0.2);
+        }  
+        
+        /* Contact page */
+        body {
+            background-color: #f8f9fa;
+        }
+        .contact-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }

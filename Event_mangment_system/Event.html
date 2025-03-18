@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Categories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/Style.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-opacity-25 sticky border border-bottom ">
+            <div class="container-fluid ">
+                <a href="./index.html" class="nav-link active text-dark   pt-2 rounded"> SN_BRO'S_EVENT</a>
+
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg">
+                        <li class="nav-item pe-5">
+                            <a class="nav-link active text-dark " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item pe-5">
+                            <a class="nav-link text-dark " href="./About.html">About-us</a>
+                        </li>
+                        <li class="nav-item pe-5 ">
+                            <a class="nav-link text-dark " href="./Event.html">Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="./Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <!-- Example single danger button -->
+                        <div>
+                            <button">
+                                <a href="./login.html" class="btn btn-primary text-decoration-none">Login</a>
+                                </button>
+                                <button">
+                                    <a href="./signup.html" class="btn btn-primary text-decoration-none">Signup</a>
+                                    </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+            <h2 class="text-center py-2 text-dark">All Events</h2>
+            <ul class="nav nav-pills mb-3" id="categoryTabs">
+                <li class="nav-item"><a class="nav-link active" data-category="all"><button
+                            class="btn btn-outline-primary text-dark">All</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="festivals"><button
+                            class="btn btn-outline-primary text-dark">Festivals</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="weddings"><button
+                            class="btn btn-outline-primary text-dark">Weddings & Social Events</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="corporate"><button
+                            class="btn btn-outline-primary text-dark">Corporate Events</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="cultural"><button
+                            class="btn btn-outline-primary text-dark">Cultural & Entertainment</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="public"><button
+                            class="btn btn-outline-primary text-dark">National & Public Events</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="sports"><button
+                            class="btn btn-outline-primary text-dark">Sports Events</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="pilgrimage"><button
+                            class="btn btn-outline-primary text-dark">Religious Pilgrimages</button></a></li>
+                <li class="nav-item"><a class="nav-link" data-category="regional"><button
+                            class="btn btn-outline-primary text-dark">Regional Festivals</button></a></li>
+            </ul>
+
+            <div id="eventList">
+                <div class="event-category festivals py-3">
+                    <h3 class="text-start py-2">Festivals (Religious & Cultural)</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/Diwali.avif" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Diwali – Festival of Lights</h5>
+                                    <p class="card-text"> <i class="bi bi-calendar px-2"></i>Date: October-November</p>
+                                    <p class="card-text"> <i class="bi bi-clock px-2"></i>Time: Evening</p>
+                                    <p class="card-text">Celebrate with lights, sweets, and fireworks.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="./eventFirst.html" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/Holi image.jpg" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Holi – Festival of Colors</h5>
+                                    <p class="card-text"> <i class="bi bi-calendar px-2"></i>Date: March</p>
+                                    <p class="card-text"><i class="bi bi-clock px-2"></i>Time: Daytime</p>
+                                    <p class="card-text">Enjoy vibrant colors, music, and festive food.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/Dashera.jpg" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Navratri & Dussehra</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Worship and celebrate with traditional dances.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-category weddings py-3">
+                    <h3 class="text-start py-2">Wedding & Social Events</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/traditinal weding.h" class="card-img-top" alt="Hindu Wedding">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Traditional Indian Weddings</h5>
+                                    <p class="card-text">Includes Hindu, Muslim, Sikh, and Christian weddings.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/Engagment.avif" class="card-img-top" alt="Engagement">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Engagement Ceremony</h5>
+                                    <p class="card-text">Celebrate the beginning of a new journey.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/mehendi.avif" class="card-img-top" alt="Mehendi">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Mehendi & Sangeet</h5>
+                                    <p class="card-text">A vibrant pre-wedding celebration with music and dance.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/Aniversary.webp" class="card-img-top" alt="Anniversary">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Anniversary Celebrations</h5>
+                                    <p class="card-text">Celebrate milestones with family and friends.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/baby shower.jpg" class="card-img-top" alt="Baby Shower">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Baby Shower</h5>
+                                    <p class="card-text">Includes Godh Bharai and Seemantham rituals.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/house warming.jpg" class="card-img-top" alt="Housewarming">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Housewarming Ceremony</h5>
+                                    <p class="card-text">Traditional Griha Pravesh for your new home.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/retirment.webp" class="card-img-top" alt="Retirement">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Retirement Party</h5>
+                                    <p class="card-text">Celebrate the golden years with loved ones.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/Naming_Decoration_Decor_1100x.webp" class="card-img-top" alt="Naming Ceremony">
+                                <div class="card-body">
+                                    <h5 class="card-title">Naming Ceremony</h5>
+                                    <p class="card-text">Traditional Namkaran for newborns.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="./eventFirst.html" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/thread ceromany.jpg" class="card-img-top" alt="Thread Ceremony">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thread Ceremony</h5>
+                                    <p class="card-text">Upanayanam, an important Hindu rite of passage.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-category corporate py-2">
+                    <h3 class="text-center pb-5 text-dark text-uppercase ">Corporate & Professional Events</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/award ceromanies.webp" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title">Business Conferences</h5>
+                                    <p class="card-text">Date: October-November</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text"> Industry leaders and professionals gather for discussions and networking.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/networking events.webp" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Networking Events</h5>
+                                    <p class="card-text">Date: March</p>
+                                    <p class="card-text">Time: Daytime</p>
+                                    <p class="card-text">Professionals connect and build business relationships.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/business conference.webp" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Award Ceremonies</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Recognizing achievements in various industries. Company progress and future plans.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- button categories wise event  -->
+            
+                <div class="event-category cultural py-3 hidden">
+                    <h3 class="text-start py-2">Cultural & Entertainment Events</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/festival.jpg" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title">Diwali – Festival of Lights</h5>
+                                    <p class="card-text">Date: October-November</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Celebrate with lights, sweets, and fireworks.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img src="./Images/Illustration/carporate.jpg" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holi – Festival of Colors</h5>
+                                    <p class="card-text">Date: March</p>
+                                    <p class="card-text">Time: Daytime</p>
+                                    <p class="card-text">Enjoy vibrant colors, music, and festive food.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/wedimg.jpg" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Navratri & Dussehra</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Worship and celebrate with traditional dances.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-category public py-3 hidden">
+                    <h3 class="text-start py-2">National & Public Events</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/festival.jpg" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title">Diwali – Festival of Lights</h5>
+                                    <p class="card-text">Date: October-November</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Celebrate with lights, sweets, and fireworks.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/carporate.jpg" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holi – Festival of Colors</h5>
+                                    <p class="card-text">Date: March</p>
+                                    <p class="card-text">Time: Daytime</p>
+                                    <p class="card-text">Enjoy vibrant colors, music, and festive food.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/wedimg.jpg" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Navratri & Dussehra</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Worship and celebrate with traditional dances.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-category sports py-3 hidden">
+                    <h3 class="text-start py-2">Sports Events</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/festival.jpg" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title">Diwali – Festival of Lights</h5>
+                                    <p class="card-text">Date: October-November</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Celebrate with lights, sweets, and fireworks.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/carporate.jpg" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holi – Festival of Colors</h5>
+                                    <p class="card-text">Date: March</p>
+                                    <p class="card-text">Time: Daytime</p>
+                                    <p class="card-text">Enjoy vibrant colors, music, and festive food.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/wedimg.jpg" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Navratri & Dussehra</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Worship and celebrate with traditional dances.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-category pilgrimage py-3 hidden">
+                    <h3 class="text-start py-2">Religious Pilgrimages & Fairs</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/festival.jpg" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title">Diwali – Festival of Lights</h5>
+                                    <p class="card-text">Date: October-November</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Celebrate with lights, sweets, and fireworks.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/carporate.jpg" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holi – Festival of Colors</h5>
+                                    <p class="card-text">Date: March</p>
+                                    <p class="card-text">Time: Daytime</p>
+                                    <p class="card-text">Enjoy vibrant colors, music, and festive food.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/wedimg.jpg" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Navratri & Dussehra</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Worship and celebrate with traditional dances.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-category regional py-3 hidden">
+                    <h3 class="text-start py-2">Regional & Folk Festivals</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/festival.jpg" class="card-img-top" alt="Diwali">
+                                <div class="card-body">
+                                    <h5 class="card-title">Diwali – Festival of Lights</h5>
+                                    <p class="card-text">Date: October-November</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Celebrate with lights, sweets, and fireworks.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/carporate.jpg" class="card-img-top" alt="Holi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holi – Festival of Colors</h5>
+                                    <p class="card-text">Date: March</p>
+                                    <p class="card-text">Time: Daytime</p>
+                                    <p class="card-text">Enjoy vibrant colors, music, and festive food.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/wedimg.jpg" class="card-img-top" alt="Navratri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Navratri & Dussehra</h5>
+                                    <p class="card-text">Date: September-October</p>
+                                    <p class="card-text">Time: Evening</p>
+                                    <p class="card-text">Worship and celebrate with traditional dances.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./Images/Illustration/independance day.avif" class="card-img-top" alt="Independence Day ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Independence Day</h5>
+                                    <p class="card-text">Date: 15-August</p>
+                                    <p class="card-text">Time: morning</p>
+                                    <p class="card-text">Celebrate with Flowers.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a href="#" class="btn btn-outline-info">View Event</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Load More Button -->
+            <div class="text-center mt-3 mb-5">
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <script src="./js/Event.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
